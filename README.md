@@ -1,7 +1,7 @@
-# Command-Pattern
+<p>
 
-<Client>          <Invoker> -------------> <Command Interface>
-|                setCommand()                 execute()
+<Client>          <Invoker> -------------> <Command Interface> 
+|                setCommand()                 execute() 
 |
 |
 |
@@ -21,3 +21,4 @@ Concrete command implements Command interface. It binds receiver with its action
 We can also pass arguments to command method and combine onCommand and offCommand.
 
 Thread can be seen as command pattern, where thread interface provice abstract method execute.
+</p>
